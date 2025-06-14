@@ -1,0 +1,366 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es F6F4-D114
+C:.
+|   backendDevTest-final.zip
+|   estructura.txt
+|   
+\---backendDevTest-final
+    +---backendDevTest-client
+    |   |   .gitignore
+    |   |   .swagger-codegen-ignore
+    |   |   .travis.yml
+    |   |   build.gradle
+    |   |   build.sbt
+    |   |   git_push.sh
+    |   |   gradle.properties
+    |   |   gradlew
+    |   |   gradlew.bat
+    |   |   pom.xml
+    |   |   README.md
+    |   |   settings.gradle
+    |   |   
+    |   +---.swagger-codegen
+    |   |       VERSION
+    |   |       
+    |   +---docs
+    |   |       DefaultApi.md
+    |   |       ProductDetail.md
+    |   |       SimilarProducts.md
+    |   |       
+    |   +---gradle
+    |   |   \---wrapper
+    |   |           gradle-wrapper.jar
+    |   |           gradle-wrapper.properties
+    |   |           
+    |   +---src
+    |   |   +---main
+    |   |   |   |   AndroidManifest.xml
+    |   |   |   |   
+    |   |   |   \---java
+    |   |   |       \---io
+    |   |   |           \---swagger
+    |   |   |               \---client
+    |   |   |                   |   ApiCallback.java
+    |   |   |                   |   ApiClient.java
+    |   |   |                   |   ApiException.java
+    |   |   |                   |   ApiResponse.java
+    |   |   |                   |   Configuration.java
+    |   |   |                   |   GzipRequestInterceptor.java
+    |   |   |                   |   JSON.java
+    |   |   |                   |   Pair.java
+    |   |   |                   |   ProgressRequestBody.java
+    |   |   |                   |   ProgressResponseBody.java
+    |   |   |                   |   StringUtil.java
+    |   |   |                   |   
+    |   |   |                   +---api
+    |   |   |                   |       DefaultApi.java
+    |   |   |                   |       
+    |   |   |                   +---auth
+    |   |   |                   |       ApiKeyAuth.java
+    |   |   |                   |       Authentication.java
+    |   |   |                   |       HttpBasicAuth.java
+    |   |   |                   |       OAuth.java
+    |   |   |                   |       OAuthFlow.java
+    |   |   |                   |       
+    |   |   |                   \---model
+    |   |   |                           ProductDetail.java
+    |   |   |                           SimilarProducts.java
+    |   |   |                           
+    |   |   \---test
+    |   |       \---java
+    |   |           \---io
+    |   |               \---swagger
+    |   |                   \---client
+    |   |                       \---api
+    |   |                               DefaultApiTest.java
+    |   |                               
+    |   \---target
+    |       |   maven-javadoc-plugin-stale-data.txt
+    |       |   swagger-java-client-1.0.0-javadoc.jar
+    |       |   swagger-java-client-1.0.0-sources.jar
+    |       |   swagger-java-client-1.0.0-tests.jar
+    |       |   swagger-java-client-1.0.0.jar
+    |       |   
+    |       +---apidocs
+    |       |   |   allclasses-index.html
+    |       |   |   allpackages-index.html
+    |       |   |   element-list
+    |       |   |   help-doc.html
+    |       |   |   index-all.html
+    |       |   |   index.html
+    |       |   |   jquery-ui.overrides.css
+    |       |   |   member-search-index.js
+    |       |   |   module-search-index.js
+    |       |   |   overview-summary.html
+    |       |   |   overview-tree.html
+    |       |   |   package-search-index.js
+    |       |   |   script.js
+    |       |   |   search.js
+    |       |   |   serialized-form.html
+    |       |   |   stylesheet.css
+    |       |   |   tag-search-index.js
+    |       |   |   type-search-index.js
+    |       |   |   
+    |       |   +---io
+    |       |   |   \---swagger
+    |       |   |       \---client
+    |       |   |           |   ApiCallback.html
+    |       |   |           |   ApiClient.html
+    |       |   |           |   ApiException.html
+    |       |   |           |   ApiResponse.html
+    |       |   |           |   Configuration.html
+    |       |   |           |   JSON.DateTypeAdapter.html
+    |       |   |           |   JSON.html
+    |       |   |           |   JSON.LocalDateTypeAdapter.html
+    |       |   |           |   JSON.OffsetDateTimeTypeAdapter.html
+    |       |   |           |   JSON.SqlDateTypeAdapter.html
+    |       |   |           |   package-summary.html
+    |       |   |           |   package-tree.html
+    |       |   |           |   package-use.html
+    |       |   |           |   Pair.html
+    |       |   |           |   ProgressRequestBody.html
+    |       |   |           |   ProgressRequestBody.ProgressRequestListener.html
+    |       |   |           |   ProgressResponseBody.html
+    |       |   |           |   ProgressResponseBody.ProgressListener.html
+    |       |   |           |   StringUtil.html
+    |       |   |           |   
+    |       |   |           +---api
+    |       |   |           |   |   DefaultApi.html
+    |       |   |           |   |   package-summary.html
+    |       |   |           |   |   package-tree.html
+    |       |   |           |   |   package-use.html
+    |       |   |           |   |   
+    |       |   |           |   \---class-use
+    |       |   |           |           DefaultApi.html
+    |       |   |           |           
+    |       |   |           +---auth
+    |       |   |           |   |   ApiKeyAuth.html
+    |       |   |           |   |   Authentication.html
+    |       |   |           |   |   HttpBasicAuth.html
+    |       |   |           |   |   OAuth.html
+    |       |   |           |   |   OAuthFlow.html
+    |       |   |           |   |   package-summary.html
+    |       |   |           |   |   package-tree.html
+    |       |   |           |   |   package-use.html
+    |       |   |           |   |   
+    |       |   |           |   \---class-use
+    |       |   |           |           ApiKeyAuth.html
+    |       |   |           |           Authentication.html
+    |       |   |           |           HttpBasicAuth.html
+    |       |   |           |           OAuth.html
+    |       |   |           |           OAuthFlow.html
+    |       |   |           |           
+    |       |   |           +---class-use
+    |       |   |           |       ApiCallback.html
+    |       |   |           |       ApiClient.html
+    |       |   |           |       ApiException.html
+    |       |   |           |       ApiResponse.html
+    |       |   |           |       Configuration.html
+    |       |   |           |       JSON.DateTypeAdapter.html
+    |       |   |           |       JSON.html
+    |       |   |           |       JSON.LocalDateTypeAdapter.html
+    |       |   |           |       JSON.OffsetDateTimeTypeAdapter.html
+    |       |   |           |       JSON.SqlDateTypeAdapter.html
+    |       |   |           |       Pair.html
+    |       |   |           |       ProgressRequestBody.html
+    |       |   |           |       ProgressRequestBody.ProgressRequestListener.html
+    |       |   |           |       ProgressResponseBody.html
+    |       |   |           |       ProgressResponseBody.ProgressListener.html
+    |       |   |           |       StringUtil.html
+    |       |   |           |       
+    |       |   |           \---model
+    |       |   |               |   package-summary.html
+    |       |   |               |   package-tree.html
+    |       |   |               |   package-use.html
+    |       |   |               |   ProductDetail.html
+    |       |   |               |   SimilarProducts.html
+    |       |   |               |   
+    |       |   |               \---class-use
+    |       |   |                       ProductDetail.html
+    |       |   |                       SimilarProducts.html
+    |       |   |                       
+    |       |   +---legal
+    |       |   |       COPYRIGHT
+    |       |   |       jquery.md
+    |       |   |       jqueryUI.md
+    |       |   |       LICENSE
+    |       |   |       
+    |       |   +---resources
+    |       |   |       glass.png
+    |       |   |       x.png
+    |       |   |       
+    |       |   \---script-dir
+    |       |           jquery-3.6.0.min.js
+    |       |           jquery-ui.min.css
+    |       |           jquery-ui.min.js
+    |       |           
+    |       +---classes
+    |       |   \---io
+    |       |       \---swagger
+    |       |           \---client
+    |       |               |   ApiCallback.class
+    |       |               |   ApiClient$1.class
+    |       |               |   ApiClient$2.class
+    |       |               |   ApiClient$3.class
+    |       |               |   ApiClient.class
+    |       |               |   ApiException.class
+    |       |               |   ApiResponse.class
+    |       |               |   Configuration.class
+    |       |               |   GzipRequestInterceptor$1.class
+    |       |               |   GzipRequestInterceptor$2.class
+    |       |               |   GzipRequestInterceptor.class
+    |       |               |   JSON$1.class
+    |       |               |   JSON$DateTypeAdapter.class
+    |       |               |   JSON$LocalDateTypeAdapter.class
+    |       |               |   JSON$OffsetDateTimeTypeAdapter.class
+    |       |               |   JSON$SqlDateTypeAdapter.class
+    |       |               |   JSON.class
+    |       |               |   Pair.class
+    |       |               |   ProgressRequestBody$1.class
+    |       |               |   ProgressRequestBody$ProgressRequestListener.class
+    |       |               |   ProgressRequestBody.class
+    |       |               |   ProgressResponseBody$1.class
+    |       |               |   ProgressResponseBody$ProgressListener.class
+    |       |               |   ProgressResponseBody.class
+    |       |               |   StringUtil.class
+    |       |               |   
+    |       |               +---api
+    |       |               |       DefaultApi$1.class
+    |       |               |       DefaultApi$10.class
+    |       |               |       DefaultApi$2.class
+    |       |               |       DefaultApi$3.class
+    |       |               |       DefaultApi$4.class
+    |       |               |       DefaultApi$5.class
+    |       |               |       DefaultApi$6.class
+    |       |               |       DefaultApi$7.class
+    |       |               |       DefaultApi$8.class
+    |       |               |       DefaultApi$9.class
+    |       |               |       DefaultApi.class
+    |       |               |       
+    |       |               +---auth
+    |       |               |       ApiKeyAuth.class
+    |       |               |       Authentication.class
+    |       |               |       HttpBasicAuth.class
+    |       |               |       OAuth.class
+    |       |               |       OAuthFlow.class
+    |       |               |       
+    |       |               \---model
+    |       |                       ProductDetail.class
+    |       |                       SimilarProducts.class
+    |       |                       
+    |       +---generated-sources
+    |       |   \---annotations
+    |       +---generated-test-sources
+    |       |   \---test-annotations
+    |       +---javadoc-bundle-options
+    |       |       javadoc-options-javadoc-resources.xml
+    |       |       
+    |       +---lib
+    |       |       gson-2.8.1.jar
+    |       |       gson-fire-1.8.3.jar
+    |       |       hamcrest-core-1.3.jar
+    |       |       javax.annotation-api-1.3.2.jar
+    |       |       junit-4.13.1.jar
+    |       |       logging-interceptor-2.7.5.jar
+    |       |       okhttp-2.7.5.jar
+    |       |       okio-1.6.0.jar
+    |       |       swagger-annotations-2.0.0.jar
+    |       |       threetenbp-1.3.5.jar
+    |       |       
+    |       +---maven-archiver
+    |       |       pom.properties
+    |       |       
+    |       +---maven-status
+    |       |   \---maven-compiler-plugin
+    |       |       +---compile
+    |       |       |   \---default-compile
+    |       |       |           createdFiles.lst
+    |       |       |           inputFiles.lst
+    |       |       |           
+    |       |       \---testCompile
+    |       |           \---default-testCompile
+    |       |                   createdFiles.lst
+    |       |                   inputFiles.lst
+    |       |                   
+    |       +---surefire
+    |       +---surefire-reports
+    |       |       io.swagger.client.api.DefaultApiTest.txt
+    |       |       TEST-io.swagger.client.api.DefaultApiTest.xml
+    |       |       
+    |       \---test-classes
+    |           \---io
+    |               \---swagger
+    |                   \---client
+    |                       \---api
+    |                               DefaultApiTest.class
+    |                               
+    +---backendDevTest-main
+    |   |   docker-compose.yaml
+    |   |   existingApis.yaml
+    |   |   LICENSE
+    |   |   readme.md
+    |   |   similarProducts.yaml
+    |   |   
+    |   +---assets
+    |   |       diagram.jpg
+    |   |       
+    |   \---shared
+    |       +---grafana
+    |       |   +---dashboards
+    |       |   |       dashboard.yml
+    |       |   |       performance-test-dasboard.json
+    |       |   |       
+    |       |   \---datasources
+    |       |           datasource.yml
+    |       |           
+    |       +---k6
+    |       |       test.js
+    |       |       
+    |       \---simulado
+    |               mocks.json
+    |               
+    \---Proyecto
+        |   .swagger-codegen-ignore
+        |   pom.xml
+        |   README.md
+        |   
+        +---.swagger-codegen
+        |       VERSION
+        |       
+        +---src
+        |   \---main
+        |       +---java
+        |       |   \---io
+        |       |       \---swagger
+        |       |           |   RFC3339DateFormat.java
+        |       |           |   Swagger2SpringBoot.java
+        |       |           |   
+        |       |           +---api
+        |       |           |       ApiException.java
+        |       |           |       ApiOriginFilter.java
+        |       |           |       ApiResponseMessage.java
+        |       |           |       NotFoundException.java
+        |       |           |       ProductApi.java
+        |       |           |       ProductApiController.java
+        |       |           |       
+        |       |           +---configuration
+        |       |           |       CustomInstantDeserializer.java
+        |       |           |       HomeController.java
+        |       |           |       JacksonConfiguration.java
+        |       |           |       LocalDateConverter.java
+        |       |           |       LocalDateTimeConverter.java
+        |       |           |       NotUndefined.java
+        |       |           |       NotUndefinedValidator.java
+        |       |           |       SwaggerDocumentationConfig.java
+        |       |           |       SwaggerUiConfiguration.java
+        |       |           |       
+        |       |           \---model
+        |       |                   ProductDetail.java
+        |       |                   SimilarProducts.java
+        |       |                   
+        |       \---resources
+        |               application.properties
+        |               
+        \---target
+            +---classes
+            \---test-classes
